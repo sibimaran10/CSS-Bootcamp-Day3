@@ -1,0 +1,291 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.nav{
+    height: 60px;
+}
+.logo{
+   padding-left: 70px;
+   width:150px;
+   height: 30px;
+   margin-top: 10px;
+   float: left;
+}
+.search-bar{
+    position: relative;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    width: 350px;
+    height:50px;
+    margin-left: 200px;
+    float: left;
+}
+.outline{
+    margin-top: 15px;
+    border:0px solid;
+    outline:none;
+    font-size: 15px;
+    margin-right:80px;
+}
+.searchicon{
+    position: absolute;
+    width:20px;
+    height:20px;
+    left: 750px;
+    margin-top: 14px;
+}
+.btn{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 32px;
+    text-align: justify;
+    white-space: nowrap;
+    margin-left: 150px;
+    top: 0;
+}
+.user{
+    height: 40px;
+    width: 70px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 4px 7px;
+    margin-left: 25px;
+}
+.more{
+    float: left;
+    padding-top: 8px;
+}
+.explore{
+    left: 10px;
+    margin-left: 5px;
+    top: 50%;
+}
+.user-profile{
+    top: 3px;
+}
+.heading{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+}
+.share{
+    right: 100px;
+    top: 2px;
+    float: left;
+    
+}
+.left{
+    margin-left: 80px;
+    float: left;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.right{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.leftpic{
+    margin-left: 80px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.secondfirst{
+    float: left;
+    margin-right: 5px;
+    
+}
+.secondthird{
+    float: left;
+    margin-right: 5px;
+}
+.rooms{
+  text-decoration: none;
+}
+.container{
+    margin-left: 80px;
+    align-items: center;
+}
+.hosted{
+    font-size: large;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 0%;
+}
+.host{
+    float: left;
+    margin-right: 240px;
+    margin-top: 20px;
+    align-items: center;
+}
+.hosted, .host{
+    margin-left: 5px;
+}
+.firstpart{
+    align-items: center;
+}
+.line{
+    clear: both;
+    margin-left: 1px;
+    box-shadow: none;
+}
+.aircover{
+    margin-top: 20px;
+    width: 100px;
+}
+.show{
+    display: flex;
+    align-items: center;
+    gap:0px;
+}
+.fifthpart{
+    float:left;
+    width: 960px;
+    margin: 0 auto;
+    height: 250px;
+}
+.card1{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 230px;
+    height: 150px;
+    box-sizing: border-box;
+    align-items: initial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float:left;
+    margin-right: 10px;
+}
+.card2{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 230px;
+    height: 150px;
+    box-sizing: border-box;
+    align-items: initial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+.card3{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 230px;
+    height: 150px;
+    box-sizing: border-box;
+    align-items: initial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float:left;
+}
+.courtyard{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.garden{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row1{
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+.kitchen{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.wifi{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    gap: 310px;
+    align-items: center;
+}
+.workspace{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.park{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    gap: 206px;
+    align-items: center;
+}
+.pet{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.washer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row4{
+    display: flex;
+    gap: 275px;
+    align-items: center;
+}
+.ac{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bath{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row5{
+    display: flex;
+    gap: 143px;
+    align-items: center;
+}
+.descont{
+    float: left;
+}
+
+.sidebar{
+    float: right;
+    width: 292px;
+    margin-top: 30px;
+    height: 500px;
+    position: sticky;
+    top: 200%px;
+    bottom: 100px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 30px; 
+    top: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+.revs{
+    float: right;
+    gap: 50px;
+}
+.contents{
+    width: 200px;
+    height: 80px;
+    border: 3px solid black;
+}
+
+
